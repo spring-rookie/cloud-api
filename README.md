@@ -1,13 +1,13 @@
-# blog-api
+# cloud-api
 
 [![Build Status](https://api.travis-ci.org/sarbull/blog-api.svg?branch=master)](https://travis-ci.org/sarbull/blog-api)
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sarbull/blog-api/tree/master)
 
-Blog's API using Spring and JPA.
+Cloud's API using Spring and JPA.
 
 # Demo
-[https://blog-api-2.herokuapp.com](https://blog-api-2.herokuapp.com/posts)
+[https://cloud-api-2.herokuapp.com](https://cloud-api-2.herokuapp.com/posts)
 
 # Tools
 - Swagger
@@ -19,12 +19,12 @@ Blog's API using Spring and JPA.
 ## Posts
 | Method        | URL                     |
 |---------------|-------------------------|
-| GET           | /posts                  |
-| POST          | /posts                  |
-| GET           | /posts/:postId          |
-| DELETE        | /posts/:postId          |
-| GET           | /posts/:postId/comments |
-| POST          | /posts/:postId/comments |
+| GET           | /cloud                  |
+| POST          | /cloud                  |
+| GET           | /cloud/:postId          |
+| DELETE        | /cloud/:postId          |
+| GET           | /cloud/:postId/comments |
+| POST          | /cloud/:postId/comments |
 
 ## Posts
 ![Posts](https://raw.githubusercontent.com/sarbull/blog-api/master/media/posts.png)
